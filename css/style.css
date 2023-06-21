@@ -14,10 +14,18 @@
 body {
   background-color: #fff;
   color: var(--primary-text-color);
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 18px;
+  line-height: 1.67;
 }
 /*? Логотип */
 .logo {
   color: var(--title-text-color);
+  font-family: "Comfortaa" cursive;
+  font-size: 28px;
+  line-height: 1.14; /* ? Визначили поділивши   (line-height/font-size)  32/28=1.14 */
+  text-decoration: none;
 }
 .logo:hover,
 .logo:focus {
@@ -30,6 +38,11 @@ ul {
 /* ? Навігація сайта */
 .site-nav .link {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  /* ?Визначили поділивши(line-height/font-size)18/15=1.2 */
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -39,26 +52,40 @@ ul {
 /* Герой */
 .hero-title {
   color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+  text-align: center;
 }
 
 /* feature*/
 .section-title {
   color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
 }
 
-.feature-list .link {
-  color: var(--accent-color);
+.feature-list .title,
+.work-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 /* Examples*/
-.work-list .title {
-  color: var(--title-text-color);
-}
 
 /* Button */
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 .button.secondary {
