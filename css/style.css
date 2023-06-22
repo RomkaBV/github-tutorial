@@ -44,6 +44,11 @@ ul {
   /* ?Визначили поділивши(line-height/font-size)18/15=1.2 */
   text-decoration: none;
 }
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -51,6 +56,9 @@ ul {
 }
 /* Герой */
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 56px;
@@ -80,8 +88,16 @@ ul {
 
 /* Button */
 .button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 11px 34px;
+  min-width: 130px;
+  text-align: center;
+
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
+
   font-weight: 500;
   font-size: 15px;
   line-height: 1.2;
@@ -93,6 +109,7 @@ ul {
   background-color: var(--accent-color);
 }
 .button.primary {
-  color: var(--accent-color);
+  border-color: var(--accent-color);
   background-color: var(--primary-white-color);
+  border: 1px solid var(--accent-color);
 }
