@@ -100,11 +100,6 @@ body {
   padding-bottom: 120px;
 }
 
-.section.no-padding {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 .section-title {
   margin-top: 0;
   margin-bottom: 60px;
@@ -141,7 +136,10 @@ body {
 }
 
 /* Works */
-
+.section.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .work-list > .item {
   padding-top: 80px;
   padding-bottom: 80px;
